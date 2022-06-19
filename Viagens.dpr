@@ -2,10 +2,8 @@ program Viagens;
 
 uses
   Vcl.Forms,
-  viagem in '..\..\Documents\Embarcadero\Studio\Projects\viagem.pas' {menu},
-  dias in '..\..\Documents\Embarcadero\Studio\Projects\dias.pas' {Form2},
   cadastros in 'cadastros.pas' {Form1},
-  notaFiscal in '..\..\Documents\Embarcadero\Studio\Projects\notaFiscal.pas' {Form3};
+  nota in 'nota.pas' {Form2};
 
 {$R *.res}
 
@@ -13,8 +11,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TCadastro, Cadastro);
-  Application.CreateForm(Tmenu, menu);
   Application.CreateForm(TForm2, Form2);
-  Application.CreateForm(TForm3, Form3);
   Application.Run;
 end.

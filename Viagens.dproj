@@ -98,20 +98,11 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="..\..\Documents\Embarcadero\Studio\Projects\viagem.pas">
-            <Form>menu</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
-        <DCCReference Include="..\..\Documents\Embarcadero\Studio\Projects\dias.pas">
-            <Form>Form2</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <DCCReference Include="cadastros.pas">
             <Form>Form1</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="..\..\Documents\Embarcadero\Studio\Projects\notaFiscal.pas">
-            <Form>Form3</Form>
+        <DCCReference Include="nota.pas">
+            <Form>Form2</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">
