@@ -101,8 +101,20 @@
         <DCCReference Include="cadastros.pas">
             <Form>Form1</Form>
         </DCCReference>
-        <DCCReference Include="nota.pas">
-            <Form>Form2</Form>
+        <DCCReference Include="pedido.pas">
+            <Form>pedidos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="pagamento.pas">
+            <Form>formaDePagamento</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fiscal.pas">
+            <Form>notaFiscal</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="agradecimento.pas">
+            <Form>Calu</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

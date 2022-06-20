@@ -1,0 +1,24 @@
+unit pagamento;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TformaDePagamento = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formaDePagamento: TformaDePagamento;
+
+implementation
+
+{$R *.dfm}
+
+end.

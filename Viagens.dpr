@@ -3,7 +3,10 @@ program Viagens;
 uses
   Vcl.Forms,
   cadastros in 'cadastros.pas' {Form1},
-  nota in 'nota.pas' {Form2};
+  pedido in 'pedido.pas' {pedidos},
+  pagamento in 'pagamento.pas' {formaDePagamento},
+  fiscal in 'fiscal.pas' {notaFiscal},
+  agradecimento in 'agradecimento.pas' {Calu};
 
 {$R *.res}
 
@@ -11,6 +14,9 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TCadastro, Cadastro);
-  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(Tpedidos, pedidos);
+  Application.CreateForm(TformaDePagamento, formaDePagamento);
+  Application.CreateForm(TnotaFiscal, notaFiscal);
+  Application.CreateForm(TCalu, Calu);
   Application.Run;
 end.
